@@ -14,19 +14,19 @@ export default function Nav() {
   const t = useTranslations("nav");
 
   return (
-    <div className="px-5 w-full flex justify-between items-center py-5 font-medium  top-0 z-50 fixed">
+    <div className="px-5 md:px-20 w-full flex justify-between items-center py-5 font-medium  top-0 z-50 fixed">
       <div>
         <LogoIcon />
       </div>
-      <div className="hidden md:flex items-center gap-2 py-2 px-4 rounded-full bg-[#161616] text-white">
+      <div className="hidden md:flex items-center gap-2 py-4 px-6 rounded-full bg-[#161616] text-white text-xl  ">
         <div>{t("home_nav")}</div>
         <div>{t("services_nav")}</div>
         <div>{t("about_nav")}</div>
         <div>{t("contact_nav")}</div>
       </div>
       <div className="hidden md:flex md:first-line:flex items-center gap-2">
-        <div>select</div>
-        <div>contact</div>
+        <div className="py-4 px-6  bg-greenprimary">select</div>
+        <div className="py-4 px-6  bg-greenprimary rounded-full">Get in touch</div>
       </div>
       <Sheet>
         <SheetTrigger className="md:hidden bg-black rounded-xl p-3">

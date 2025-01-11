@@ -13,6 +13,8 @@ const slides = [
   { text: "Invest in real state" },
   { text: "Invest in real state" },
   { text: "Invest in real state" },
+  { text: "Invest in real state " },
+
 ];
 
 export default function Slider() {
@@ -21,7 +23,7 @@ export default function Slider() {
   return (
     <div
       // ${bebas.className}
-      className={`relative w-full overflow-hidden bg-greenprimary  py-3`}
+      className={`relative w-full overflow-hidden bg-black text-white  py-3 pt-4 ${bebas.className}`}
     >
       <motion.div
         className="flex"

@@ -47,14 +47,16 @@ export default function HeaderTitle({ translations, words }) {
         >
           {translations.subtitle}
         </h2>
-        <Link href={"/contacto"}>
-          <div className="w-full flex justify-between items-center border bg-greenprimary text-black rounded-full p-2">
-            <div className=" font-semibold w-full md:w-auto text-center">
+<div className="flex justify-center">
+<Link href={"/"} className="w-full md:max-w-96 ">
+          <div className=" flex justify-between items-center p-1  bg-greenprimary text-black rounded-full text-lg  ">
+            <div className=" font-semibold w-full md:w-auto pl-4">
               {translations.callToAction}
             </div>
-            <div className="bg-black h-4 w-4"></div>
+            <div className="bg-black h-12 w-12 rounded-full"></div>
           </div>
         </Link>
+</div>
       </div>
     </main>
   );

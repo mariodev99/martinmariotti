@@ -6,7 +6,7 @@ export const LogoIcon = (props) => {
       height="40"
       viewBox="0 0 61 51"
       fill="none"
-      className="fill-greenprimary"
+      className="fill-white"
       {...props}
     >
       <path
